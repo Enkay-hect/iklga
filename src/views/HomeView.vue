@@ -1,4 +1,16 @@
 <template>
+
+<div class="sidebar" id="sidebar">
+
+  <div class="sidebarlinks">
+
+  </div>
+
+  <div @click="closeSideBar()">X</div>
+
+
+</div>
+
   <div class="welcomeImage">
 
     <div class="topBar">
@@ -76,9 +88,7 @@
 
     <div class="topBar2">
 
-        <div id="main-content" class="main-content">
-          <button @click="openSidebar()">Open Sidebar</button>
-        </div>
+          <div @click="openSideBar()">Open Sidebar</div>
 
         <div class="logoContainer" style="background-color: transparent;">
               <h1>IKLGA.</h1>
@@ -86,32 +96,25 @@
 
         <div style="color:white">search</div>
     </div>
-
-    <div class="sidebar" id="sidebar">
-
-      <div class="sidebarlinks">
-
-      </div>
-
-      <div @click="closeSideBar()">X</div>
-
-
-    </div>
     
   </div>
 </template>
 
 <script setup>
 
-    function openSidebar(){
-      const side = document.getElementById('sidebar')
-      // side.style.display = 'block'
-      side.style.marginLeft = '100%'
+    function openSideBar(){
+      const openside = document.getElementById('sidebar')
+
+       const computedStyle = window.getComputedStyle(openside);
+
+        if(computedStyle.display == 'none'){
+          openside.style.display = 'flex'
+        }
     }
 
     function closeSideBar(){
-      const side = document.getElementById('sidebar')
-      side.style.marginLeft = '-100%'
+      const closeside = document.getElementById('sidebar')
+      closeside.style.marginLeft = '-100%'
     }
 
 </script>
@@ -119,7 +122,7 @@
 <style scoped>
 
 .welcomeImage{
-  min-height: 110vh;
+  min-height: 100vh;
   width: 100%;
   background-image: url('../assets/images/louvre.jpg');
   background-repeat: no-repeat;
@@ -244,22 +247,21 @@
   background-color: #353232;
   justify-content: space-evenly;
   align-items: center;
-  z-index: 0.5;
+  z-index: 0;
+  position: relative;
 }
 
   .sidebar{
     height: auto;
     width: 100%;
-    /* overflow-y: auto; */
     border: 2px solid red;
     position: fixed;
-    /* margin-left: -100%; */
-    /* z-index: 1; */
     background-color: gray;    
     opacity: 0.6;
     visibility: visible;
-    display: flex;
+    display: none;
     flex-direction: row;
+    z-index: 5;
   }
 
   body.sidebar-active {
@@ -267,8 +269,8 @@
   }
 
   .sidebarlinks{
-    min-height: 100vh;
-    width: 90%;
+    min-height: 200vh;
+    width: 80%;
     border: 2px solid yellow;
     /* z-index: 2; */
 

@@ -242,6 +242,7 @@
 
 .topBar2{
   display: flex;
+  flex-direction: row;
   height: 6rem;
   width: 100%;
   background-color: #353232;

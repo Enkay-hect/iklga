@@ -277,10 +277,6 @@
 
   }
 
-  .welcomeImage{
-    min-width: 100vh;
-  }
-
 
 }
 

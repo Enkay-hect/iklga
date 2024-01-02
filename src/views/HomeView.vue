@@ -1,6 +1,6 @@
 <template>
 
-<div class="sidebar" id="sidebar">
+<div class="sidebar" id="sidebar" >
 
   <div class="sidebarlinks">
 
@@ -114,7 +114,7 @@
 
     function closeSideBar(){
       const closeside = document.getElementById('sidebar')
-      closeside.style.marginLeft = '-100%'
+      closeside.style.display = 'none'
     }
 
 </script>
@@ -261,7 +261,7 @@
     visibility: visible;
     display: none;
     flex-direction: row;
-    z-index: 5;
+    z-index: 1;
   }
 
   body.sidebar-active {

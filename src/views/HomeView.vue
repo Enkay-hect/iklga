@@ -267,6 +267,8 @@
 
   body.sidebar-active {
     overflow: hidden;
+    background-color: #353232;    
+
   }
 
   .sidebarlinks{

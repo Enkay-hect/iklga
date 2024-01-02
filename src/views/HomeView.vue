@@ -255,7 +255,6 @@
   .sidebar{
     height: auto;
     width: 100%;
-    border: 2px solid red;
     position: fixed;
     background-color: gray;    
     opacity: 0.6;
@@ -274,7 +273,6 @@
   .sidebarlinks{
     min-height: 200vh;
     width: 80%;
-    border: 2px solid yellow;
     /* z-index: 2; */
 
   }

@@ -10,99 +10,111 @@
 
 </div>
 
-  <div class="welcomeImage">
+<div class="welcomeImage">
 
-    <div class="topBar">
+  <div class="topBar">
 
-      <div class="iconBar">
-          <div class="iconbarIcon">
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-facebook"></i>
-            <i class="fab fa-linkedin"></i>
-            <i class="fab fa-instagram"></i>
-            <i class="fa-check"></i>
-            <!-- <i class="fa-solid fa-check"></i>
-            <i class="fa fa-user"></i> -->
-      </div>
-
-          <h3>Open Hours of City Government Mon - Fri: 8:00am - 6:00pm</h3>
-
-          <div class="searchIcon">
-            <i class="far fa-search"></i>
-          </div>
-      </div>
-
-      <div class="linkBar">
-
-        <div class="logoContainer">
-            <h1>IKLGA.</h1>
-        </div>
-
-        <div class="links">
-
-          <div class="dropdown">
-            <button class="dropbtn">Home</button>
-            <div class="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
-            </div>
-          </div>
-
-          <div class="dropdown">
-            <button class="dropbtn">Event</button>
-            <div class="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
-            </div>
-          </div>
-
-          <div class="dropdown">
-            <button class="dropbtn">Blog</button>
-            <div class="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
-            </div>
-          </div>
-
-          <div class="dropdown">
-            <button class="dropbtn">Landmark</button>
-            <div class="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
-            </div>
-          </div>
-
-         <button class="contactus">Contact Us</button>
+    <div class="iconBar">
+        <div class="iconbarIcon">
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-linkedin"></i>
+          <i class="fab fa-instagram"></i>
           
+    </div>
+
+        <h3>Open Hours of City Government Mon - Fri: 8:00am - 6:00pm</h3>
+
+        <div class="searchIcon">
+          <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" viewBox="0 0 512 512" style="fill: black; stroke: black; stroke-width: 2px;"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/>--></svg>
         </div>
+    </div>
 
+    <div class="linkBar">
 
+      <div class="logoContainer">
+          <h1>IKLGA.</h1>
       </div>
 
-      
+      <div class="links">
 
-    </div>
-
-
-    <div class="topBar2">
-
-          <div  @click="openSideBar()"><svg xmlns="http://www.w3.org/2000/svg" height="32" width="28" viewBox="0 0 448 512" style="fill: white; stroke: black; stroke-width: 2px;"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/>--></svg></div>
-
-        <div class="logoContainer" style="background-color: transparent;">
-              <h1>IKLGA.</h1>
+        <div class="dropdown">
+          <button class="dropbtn">Home</button>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
         </div>
 
-        <div style="color:white"><svg xmlns="http://www.w3.org/2000/svg" height="32" width="32" viewBox="0 0 512 512" style="fill: white; stroke: black; stroke-width: 2px;"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/>--></svg></div>
+        <div class="dropdown">
+          <button class="dropbtn">Event</button>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <button class="dropbtn">Blog</button>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <button class="dropbtn">Landmark</button>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div>
+
+        <button class="contactus">Contact Us</button>
+        
+      </div>
+
+
     </div>
+
     
+
   </div>
+
+
+  <div class="topBar2">
+
+        <div  @click="openSideBar()"><svg xmlns="http://www.w3.org/2000/svg" height="32" width="28" viewBox="0 0 448 512" style="fill: white; stroke: black; stroke-width: 2px;"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/>--></svg></div>
+
+      <div class="logoContainer" style="background-color: transparent;">
+            <h1>IKLGA.</h1>
+      </div>
+
+      <div style="color:white">
+        <svg xmlns="http://www.w3.org/2000/svg" height="32" width="32" viewBox="0 0 512 512" style="fill: white; stroke: black; stroke-width: 2px;"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/>--></svg>
+      </div>
+  </div>
+  
+</div>
+
+<!-- <Xters /> -->
+
+<div class="xtersview" style="min-height: 100vh; width: 100%; background-color: gray;">
+
+</div>
+
+
 </template>
 
 <script setup>
+
+import Xters from '../components/Xters.vue'
+
+
 
     function openSideBar(){
       const openside = document.getElementById('sidebar')
@@ -124,7 +136,7 @@
 <style scoped>
 
 .welcomeImage{
-  min-height: 100vh;
+  min-height: 120vh;
   width: 100%;
   background-image: url('../assets/images/louvre.jpg');
   background-repeat: no-repeat;
@@ -252,10 +264,11 @@
   height: 6rem;
   width: 100%;
   background-color: #353232;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   z-index: 0;
   position: relative;
+  padding: 1rem
 }
 
   .sidebar{
